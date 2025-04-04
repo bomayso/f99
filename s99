@@ -364,6 +364,7 @@ for i = 2, 5 do
 
         task.wait(1)  -- Đợi một chút để tránh spam quá nhanh
     end
+	task.wait(0.1)
 end
 task.wait(0.1)
 end
