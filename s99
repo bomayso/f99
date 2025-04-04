@@ -337,12 +337,12 @@ getgenv().Settings = {
 
 
 -- Các giá trị của a có thể là 10000, 1000, 100, 10 hoặc 1
-local possibleAValues = {10000, 1000, 100, 10, 1}
+local possibleAValues = {30000, 10000, 1000, 100, 10, 1}
 task.spawn(function()
 wait(20)
 while true do
 -- Lặp qua các giá trị i từ 1 đến 5
-for i = 1, 5 do
+for i = 2, 5 do
     -- Lặp qua các giá trị của a trong danh sách
     for _, a in ipairs(possibleAValues) do
         -- Tạo tham số args với giá trị i và a
