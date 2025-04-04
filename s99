@@ -337,7 +337,7 @@ getgenv().Settings = {
 
 
 -- Các giá trị của a có thể là 10000, 1000, 100, 10 hoặc 1
-local possibleAValues = {20000, 10000, 1000, 100, 10, 1}
+local possibleAValues = {10000, 1000, 100, 10, 1}
 task.spawn(function()
 wait(20)
 while true do
