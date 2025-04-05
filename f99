@@ -124,7 +124,7 @@ local content = getRandomphrases()
         ["Rainbow Gem"] = 3500,
         ["Amethyst Gem"] = 20000,
         ["Emerald Gem"] = 30000,
-        ["Ruby Gem"] = 100000,
+        ["Ruby Gem"] = 200000,
         ["Sapphire Gem"] = 50000
     },
     Consumable = {
