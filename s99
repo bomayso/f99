@@ -108,6 +108,7 @@ getgenv().Settings = {
         Active = true,
         ["Items"] = {
             ["All Huges"] = {Price = "5%", AllTypes = true, Priority = true},
+			["Topaz Gem"] = {Price = "+30%", Priority = true},
 			["Quartz Gem"] = {Price = "+30%", Priority = true},
 			["Sapphire Gem"] = {Price = "+5%"},
 			["Ruby Gem"] = {Price = "+5%"},
